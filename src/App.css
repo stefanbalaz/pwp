@@ -18,6 +18,10 @@ html {
   height: 100%;
 }
 
+p {
+  padding-bottom: 2%;
+}
+
 .main_container {
   display: grid;
   grid-template-columns: 24% 74%;
@@ -26,16 +30,37 @@ html {
   min-height: 100vh;
 }
 
-.photo_container,
-.header_container {
-  padding-top: 3vh;
+@media (max-width: 768px) {
+  .main_container {
+    grid-template-rows: minmax(50px, 180px) 2fr;
+  }
+}
+
+@media (max-width: 675px) {
+  .main_container {
+    grid-template-rows: minmax(50px, 160px) 2fr;
+  }
+}
+
+.content_block {
+  max-width: 70%;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  padding-bottom: 5%;
+}
+
+@media (max-width: 768px) {
+  .content_block {
+    max-width: 95%;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding-bottom: 6%;
+  }
 }
 
 .photo_container,
-.navigation_container {
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 3vh;
+.header_container {
+  padding-top: 3vh;
 }
 
 .content_container,
@@ -43,18 +68,46 @@ html {
   padding-top: 3vh;
 }
 
-.photo_container {
-  background-color: #e6f3e6ff;
-}
-
 .content {
   flex: 1;
   background-color: rgb(108, 108, 193);
 }
 
+/* PHOTO CONTAINER */
+
+.photo_container {
+  background-color: #e6f3e6ff;
+}
+
+.photo_container {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 5%;
+}
+
+@media (max-width: 768px) {
+  .photo_container {
+    display: flex;
+    align-items: baseline;
+    padding-right: 5%;
+  }
+}
+
+/* IMAGE */
+
+img {
+  padding-left: 5%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 /* NAVIGATION */
 
 .navigation_container {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 5%;
   background-color: #e6f3e6ff;
   height: 100%;
 }
@@ -77,7 +130,7 @@ nav a {
   text-transform: lowercase;
   text-decoration: none;
   color: #577980;
-  padding-bottom: 2vh;
+  padding-bottom: 10%;
   display: block;
   font-size: 1.8rem;
 }
@@ -97,27 +150,25 @@ nav a.active {
   outline: none;
 }
 
-/* IMAGE */
-
-img {
-  padding-left: 3vh;
-  width: 100%;
-  height: 100%;
-  object-fit: contain; /* or "cover" depending on your preference */
+@media (max-width: 768px) {
+  nav a {
+    font-size: 1rem;
+    padding-bottom: 15%;
+  }
 }
 
 /* HEADER */
 
 header h1 {
   font-size: 1.8rem;
-  padding-bottom: 1vh;
+  padding-bottom: 1%;
   color: #134f5c;
   /* background-color: bisque; */
 }
 
 header h2 {
   font-size: 1.4rem;
-  padding-bottom: 1vh;
+  padding-bottom: 1%;
   /* background-color: bisque; */
 }
 
@@ -139,7 +190,7 @@ header h2 {
   background-color: #fff;
   text-align: center;
   font-size: 25px;
-  margin: 0 1vh 1vh 0;
+  margin: 0 1% 1% 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -151,12 +202,15 @@ header h2 {
   text-decoration: none;
 }
 
-/* Media query for smaller screens */
 @media (max-width: 768px) {
   .icons_ul .icons_li a {
-    width: 60px;
-    height: 60px;
-    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+
+  .icons_ul .icons_li a .icon {
+    font-size: 1rem;
   }
 }
 
@@ -209,21 +263,20 @@ header h2 {
 }
 
 h3 {
-  padding-bottom: 2vh;
+  padding-bottom: 3%;
   font-size: 1.5rem;
   color: #134f5c;
 }
 
-.content_block {
-  max-width: 70%;
-  font-size: 1.4rem;
-  line-height: 1.5;
-  padding-bottom: 2vh;
+@media (max-width: 768px) {
+  h3 {
+    padding-bottom: 4%;
+    font-size: 1.2rem;
+    color: #134f5c;
+  }
 }
 
 .resume_activity_date {
-  /*   display: flex;
-    justify-content: space-between; */
   min-width: 100%;
   display: grid;
   grid-template-columns: 59% 39%;
@@ -236,10 +289,12 @@ h3 {
 
 .resume_institution {
   font-weight: bold;
+  padding-bottom: 2%;
 }
 
 .resume_activity {
   text-decoration: underline;
+  padding-bottom: 2%;
 }
 
 .content_block .education_career_list {
@@ -247,7 +302,7 @@ h3 {
 }
 
 .form-element {
-  margin-bottom: 2vh;
+  margin-bottom: 2%;
 }
 
 .form-control {
@@ -257,6 +312,11 @@ h3 {
   line-height: 1.5;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
+}
+
+.custom-button {
+  background-color: #134f5c;
+  color: #fff;
 }
 
 .custom-button {
@@ -295,6 +355,30 @@ textarea {
   box-sizing: border-box;
 }
 
+/* Add media query for smaller screens */
+@media (max-width: 768px) {
+  .form-control {
+    font-size: 0.8rem; /* Adjust the font size as needed for smaller screens */
+  }
+
+  .custom-button {
+    font-size: 1rem; /* Adjust the button font size for smaller screens */
+    padding: 12px 24px; /* Adjust the button padding for smaller screens */
+  }
+
+  form {
+    max-width: 90%;
+  }
+
+  form .form-element .form-control {
+    max-width: 95%; /* Adjust the form width for smaller screens */
+  }
+
+  form .form-element label {
+    font-size: 1rem; /* Adjust the label font size for smaller screens */
+  }
+}
+
 .skills_headline {
   font-weight: bold;
 }
@@ -331,4 +415,10 @@ li {
 
 .skill_element:hover {
   background-color: rgb(245, 248, 245);
+}
+
+@media (max-width: 768px) {
+  .skill_element {
+    padding: 4px 8px;
+  }
 }
