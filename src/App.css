@@ -503,11 +503,12 @@ li {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-bottom: 4vh;
+  margin-bottom: 2vh;
 }
 
 .icon_element {
   margin-right: 3vh;
+  margin-bottom: 2vh;
 }
 
 .icon_element {
@@ -537,7 +538,7 @@ li {
 .tech_icon {
   display: flex;
   align-self: center;
-  height: 4vw;
+  height: 6vw;
   max-height: 5vh;
 }
 
