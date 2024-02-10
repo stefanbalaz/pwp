@@ -15,16 +15,10 @@ function Portfolio() {
           <div className="card_image">
             {/* IMAGE */}
             <div className="product-image">
-              <a href="#">
-                <img src="AMATE_Admit_Tool.png" alt="AMATE Admin Tool Photo" />
-              </a>
+              <img src="AMATE_Admit_Tool.png" alt="AMATE Admin Tool Photo" />
+
               <div className="hover-img">
-                <a href="#">
-                  <img
-                    src="AMATE_Admit_Tool.png"
-                    alt="AMATE Admin Tool Photo"
-                  />
-                </a>
+                <img src="AMATE_Admit_Tool.png" alt="AMATE Admin Tool Photo" />
               </div>
             </div>
           </div>
@@ -101,19 +95,16 @@ function Portfolio() {
           <div className="card_image">
             {/* IMAGE */}
             <div className="product-image">
-              <a href="#">
+              <img
+                src="Delivery_Price_Calculator.png"
+                alt="Delivery price calculator"
+              />
+
+              <div className="hover-img">
                 <img
                   src="Delivery_Price_Calculator.png"
                   alt="Delivery price calculator"
                 />
-              </a>
-              <div className="hover-img">
-                <a href="#">
-                  <img
-                    src="Delivery_Price_Calculator.png"
-                    alt="Delivery price calculator"
-                  />
-                </a>
               </div>
             </div>
           </div>
