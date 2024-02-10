@@ -481,6 +481,13 @@ li {
   margin-bottom: 2vh;
 }
 
+@media (max-width: 360px) {
+  .product-image {
+    height: 12vh;
+    margin-bottom: 1vh;
+  }
+}
+
 .product-image img {
   object-fit: cover;
   width: 100%;
@@ -509,10 +516,18 @@ li {
 .icon_element {
   margin-right: 3vh;
   margin-bottom: 2vh;
+  position: relative;
 }
 
-.icon_element {
-  position: relative;
+@media (max-width: 768px) {
+  .card_icons {
+    margin-bottom: 1vh;
+  }
+
+  .icon_element {
+    margin-right: 1.5vh;
+    margin-bottom: 2vh;
+  }
 }
 
 .tooltip {
