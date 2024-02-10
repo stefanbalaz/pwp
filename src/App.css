@@ -483,7 +483,7 @@ li {
 
 @media (max-width: 420px) {
   .product-image {
-    height: 12vh;
+    height: 15vh;
     margin-bottom: 1vh;
   }
 }
