@@ -481,7 +481,7 @@ li {
   margin-bottom: 2vh;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 420px) {
   .product-image {
     height: 12vh;
     margin-bottom: 1vh;
