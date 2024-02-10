@@ -4,7 +4,11 @@ function Photo() {
   return (
     <div>
       {/* <h2>Welcome to My Photo Page</h2> */}
-      <img src="../../stefan_b_photo.png" alt="Stefan Balaz Photo" />
+      <img
+        src="../../stefan_b_photo.png"
+        className="profile-img"
+        alt="Stefan Balaz Photo"
+      />
     </div>
   );
 }
