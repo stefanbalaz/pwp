@@ -5,20 +5,20 @@ function Portfolio() {
     <div>
       <h3>PORTFOLIO</h3>
 
-      {/* AMATE ADMIN DASHBOARD */}
+      {/* ADMIN DASHBOARD */}
 
       <div className="content_block">
         {/* HEADLINE */}
-        <div className="card_headline">AMATE Admin Dashboard</div>
+        <div className="card_headline">Admin Dashboard</div>
 
         <div className="portfolio_card">
           <div className="card_image">
             {/* IMAGE */}
             <div className="product-image">
-              <img src="AMATE_Admit_Tool.png" alt="AMATE Admin Tool Photo" />
+              <img src="AMATE_Admit_Tool.png" alt="Admin Tool Photo" />
 
               <div className="hover-img">
-                <img src="AMATE_Admit_Tool.png" alt="AMATE Admin Tool Photo" />
+                <img src="AMATE_Admit_Tool.png" alt="Admin Tool Photo" />
               </div>
             </div>
           </div>
