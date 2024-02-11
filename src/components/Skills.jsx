@@ -20,6 +20,7 @@ function Skills() {
           <li className="skill_element">MongoDB</li>
           <li className="skill_element">Git</li>
           <li className="skill_element">Github</li>
+          <li className="skill_element">Full-Stack</li>
         </ul>
       </div>
 
@@ -72,6 +73,42 @@ function Skills() {
           <li className="skill_element">Conflict Resolution</li>
           <li className="skill_element">Listening Skills</li>
           <li className="skill_element">Problem-Solving</li>
+        </ul>
+      </div>
+
+      {/* Product Management */}
+      <div className="content_block">
+        <div className="skills_headline">Product Management</div>
+        <ul className="skills_list">
+          <li className="skill_element">Requirements Engineering</li>
+          <li className="skill_element">User Stories</li>
+          <li className="skill_element">Stakeholder Management</li>
+          <li className="skill_element">Backlog Management</li>
+          <li className="skill_element">Prototyping</li>
+          <li className="skill_element">Mockups</li>
+          <li className="skill_element">AB-Testing</li>
+          <li className="skill_element">Analytical Thinking</li>
+          <li className="skill_element">User Research</li>
+          <li className="skill_element">UX Design</li>
+          <li className="skill_element">Customer Empathy</li>
+          <li className="skill_element">Project Leadership</li>
+          <li className="skill_element">Process Optimization</li>
+          <li className="skill_element">Quality Assurance</li>
+        </ul>
+      </div>
+
+      {/* Business Development */}
+      <div className="content_block">
+        <div className="skills_headline">Business Development</div>
+        <ul className="skills_list">
+          <li className="skill_element">Entrepreneurship</li>
+          <li className="skill_element">Strategic Management</li>
+          <li className="skill_element">Market Research</li>
+          <li className="skill_element">Data Analysis</li>
+          <li className="skill_element">Project Management</li>
+          <li className="skill_element">Financial Planning</li>
+          <li className="skill_element">Controlling</li>
+          <li className="skill_element">Scaling Strategies</li>
         </ul>
       </div>
 
