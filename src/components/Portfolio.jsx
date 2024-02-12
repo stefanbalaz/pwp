@@ -152,7 +152,7 @@ function Portfolio() {
               className="btn custom-button"
               onClick={() =>
                 window.open(
-                  "https://courageous-pavlova-6c49c4.netlify.app/",
+                  "https://delivery-price-calculator.netlify.app/",
                   "_blank"
                 )
               }
