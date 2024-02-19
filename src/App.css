@@ -530,6 +530,16 @@ li {
   }
 }
 
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-container:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
 .tooltip {
   position: absolute;
   bottom: -20px;
@@ -570,4 +580,13 @@ li {
 .card_description_list li {
   word-wrap: break-word;
   margin-bottom: 1vh;
+}
+
+.more-details-link {
+  margin-bottom: 4vh;
+}
+
+.more-details-link {
+  color: #134f5c;
+  font-weight: bold;
 }
