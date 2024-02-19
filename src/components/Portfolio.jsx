@@ -112,6 +112,18 @@ function Portfolio() {
             )}
 
             {/* BUTTON */}
+
+            <button
+              className="btn custom-button"
+              onClick={() =>
+                window.open(
+                  "https://amate-admin-dashboard.netlify.app/",
+                  "_blank"
+                )
+              }
+            >
+              Visit
+            </button>
             <div className="tooltip-container">
               <div className="tooltip">
                 Username: guest <br />
@@ -120,17 +132,10 @@ function Portfolio() {
                 <br />
                 After login, wait briefly for backend activation.
               </div>
-              <button
-                className="btn custom-button"
-                onClick={() =>
-                  window.open(
-                    "https://delivery-price-calculator.netlify.app/",
-                    "_blank"
-                  )
-                }
-              >
-                Visit
-              </button>
+              <i
+                className="fas fa-info-circle"
+                style={{ marginLeft: "3vh" }}
+              ></i>
             </div>
           </div>
         </div>
