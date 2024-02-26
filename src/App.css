@@ -167,16 +167,33 @@ nav a.active {
 /* HEADER */
 
 header h1 {
-  font-size: 1.8rem;
-  padding-bottom: 1%;
+  font-size: 2rem;
+  padding-bottom: 0.5%;
   color: #134f5c;
   /* background-color: bisque; */
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
 }
 
 header h2 {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   padding-bottom: 1%;
-  /* background-color: bisque; */
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+@media (max-width: 675px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  header h2 {
+    font-size: 1.3rem;
+  }
 }
 
 /* ICONS */
@@ -273,6 +290,10 @@ h3 {
   padding-bottom: 3%;
   font-size: 1.5rem;
   color: #134f5c;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
 }
 
 @media (max-width: 768px) {
@@ -280,6 +301,10 @@ h3 {
     padding-bottom: 4%;
     font-size: 1.2rem;
     color: #134f5c;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
   }
 }
 

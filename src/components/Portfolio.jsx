@@ -106,7 +106,7 @@ function Portfolio() {
                   <li>Order overview</li>
                   <li>Order status change, Payment status change</li>
                   <li>Invoice creation</li>
-                  <li>Expandable row with order details (missing data)</li>
+                  <li>Expandable row with order details</li>
                 </ul>
               </div>
             )}
