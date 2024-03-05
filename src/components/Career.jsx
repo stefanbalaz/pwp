@@ -5,6 +5,33 @@ function Resume() {
     <div>
       <h3 className="font-weight-bolder">CAREER</h3>
 
+      {/* Admin Dashboard (Real-Life Project), Germany */}
+      <div className="content_block">
+        <div className="resume_institution">
+          Admin Dashboard (Real-Life Project), Germany
+        </div>
+        <div className="resume_activity_date">
+          <div className="resume_activity">
+            Full-Stack project for professional development
+          </div>
+          <div className="resume_date">01/2024 - today</div>
+        </div>
+        <ul className="education_career_list">
+          <li>
+            Designing and implementing MongoDB database model for an admin
+            dashboard, ensuring efficient data storage and retrieval.
+          </li>
+          <li>
+            Developing a robust backend with Node.js, handling HTTP requests,
+            interacting with the database, and implementing business logic.
+          </li>
+          <li>
+            Executing end-to-end development of the frontend using Tailwind CSS,
+            creating a responsive and feature-rich user interface.
+          </li>
+        </ul>
+      </div>
+
       {/* MSA Moderne SchlafArt GmbH, Germany */}
       <div className="content_block">
         <div className="resume_institution">

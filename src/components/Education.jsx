@@ -5,6 +5,26 @@ function Education() {
     <div>
       <h3>EDUCATION</h3>
 
+      {/* Advanced React */}
+      <div className="content_block">
+        <div className="resume_institution">Meta, Coursera</div>
+        <div className="resume_activity_date">
+          <div className="resume_activity">Advanced React</div>
+          <div className="resume_date">02/2024 - today</div>
+        </div>
+
+        <ul className="education_career_list">
+          <li>
+            Online course, a part of Meta Front-End Developer Professional
+            Certificate
+          </li>
+          <li>
+            Advanced techniques for component creation, application testing and
+            API server interaction
+          </li>
+        </ul>
+      </div>
+
       {/* WBS Coding School */}
       <div className="content_block">
         <div className="resume_institution">
