@@ -107,6 +107,10 @@ function Portfolio() {
                   <li>Order status change, Payment status change</li>
                   <li>Invoice creation</li>
                   <li>Expandable row with order details</li>
+                  <li>
+                    Order creation form (only the form; the order creation still
+                    does not work)
+                  </li>
                 </ul>
               </div>
             )}
